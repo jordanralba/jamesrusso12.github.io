@@ -218,7 +218,7 @@ h1,h2,h3,h4,h5
       margin-top: 30px;
     }
 	
-#work .media .fa
+#work .media .material-symbols-outlined
     {
         border: 2px solid #ffffff;
         border-radius: 50%;
@@ -232,7 +232,7 @@ h1,h2,h3,h4,h5
         vertical-align: middle;
         transition: all 0.4s ease-in;
     }
-#work .media .fa:hover
+#work .media .material-symbols-outlined:hover
     {
         background: #ffffff;
         cursor: pointer;
@@ -246,7 +246,7 @@ h1,h2,h3,h4,h5
 /* end work */
 
 /* start about */
-#about h4
+#about h3
     {
         padding: 15px 0;
 		color: #D43F52;
@@ -331,7 +331,7 @@ h1,h2,h3,h4,h5
         padding-bottom: 20px;
 		color: #ffffff;
     }
-#contact .fa
+#contact .material-symbols-outlined
     {
         border: 2px solid #ffffff;
         border-radius: 50%;
