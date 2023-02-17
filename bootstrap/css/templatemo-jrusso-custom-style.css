@@ -166,9 +166,11 @@ a{
 /* start home */       
 #home
 	{
-        background: url('../images/home-bg.jpg');
-        background-size: cover;
+        background-image: linear-gradient(rgba(0, 0, 0, .75), rgba(0, 0, 0, .75)), url('../img/home-bg-test.jpg');
+        background-attachment: fixed;
         background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
         padding-top: 120px;
         padding-bottom: 140px;
         text-align: center;
@@ -235,7 +237,26 @@ a{
         vertical-align: middle;
         transition: all 0.4s ease-in;
     }
+    #work .media .fa
+    {
+        border: 2px solid #ffffff;
+        border-radius: 50%;
+        color: #D43F52;
+        font-size: 24px;
+        margin-right: 24px;
+        width: 60px;
+        height: 60px;
+        line-height: 55px;
+        text-align: center;
+        vertical-align: middle;
+        transition: all 0.4s ease-in;
+    }
 #work .media .material-symbols-outlined:hover
+    {
+        background: #ffffff;
+        cursor: pointer;
+    }
+#work .media .fa:hover
     {
         background: #ffffff;
         cursor: pointer;
@@ -389,6 +410,19 @@ a{
 
 }
 /* end contact */
+/* start education */
+#education {
+    
+}
+#education img{
+    backdrop-filter:linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6));
+
+    vertical-align: middle;
+    height: auto;
+    width: 100%;
+}
+
+/* end education */
 
 /* start footer */
 footer
