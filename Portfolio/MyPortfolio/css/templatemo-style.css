@@ -369,6 +369,17 @@ h1,h2,h3,h4,h5
         background: #ffffff;
         color: #D43F52;
     }
+#contactPhoneIcon{
+	posiition: relative;
+	top: 5px;
+
+}#contactMailIcon{
+	posiition: relative;
+
+}#contactHomeIcon{
+	posiition: relative;
+
+}
 /* end contact */
 
 /* start footer */
