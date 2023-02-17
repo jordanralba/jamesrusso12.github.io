@@ -37,13 +37,16 @@ footer .fp-tableCell
 
 /* end all section */
 
-/* start all heading */
+/* start all global */
 h1,h2,h3,h4,h5
     {
         color: #ffffff;
         font-weight: bold;
     }
-/* end all heading */
+a{
+	color:inherit;
+}
+/* end all global */
 
 /* start all section */
 #work, #about, #portfolio, #contact
