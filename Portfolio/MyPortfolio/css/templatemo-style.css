@@ -370,14 +370,19 @@ h1,h2,h3,h4,h5
         color: #D43F52;
     }
 #contactPhoneIcon{
-	posiition: relative;
-	top: 5px;
+	position: relative;
+	top: 6px;
+	margin: 0 0 5px;
 
 }#contactMailIcon{
-	posiition: relative;
+	position: relative;
+    	top: 4px;
+    	margin: 0 0 3px;
 
 }#contactHomeIcon{
-	posiition: relative;
+	position: relative;
+    	top: 4px;
+    	margin: 0 0 3px;
 
 }
 /* end contact */
