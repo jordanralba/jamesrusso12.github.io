@@ -94,8 +94,8 @@
             //scrolling
             css3: true,
             scrollingSpeed: 700,
-            autoScrolling: true,
-            fitToSection: true,
+            autoScrolling: false,
+            fitToSection: false,
             easing: 'easeInOutCubic',
             easingcss3: 'ease',
             loopBottom: false,
@@ -120,7 +120,7 @@
             sectionsColor : [],
             paddingTop: 0,
             paddingBottom: 0,
-            fixedElements: null,
+            fixedElements: '.notAutoScroll',
             responsive: 0,
 
             //Custom selectors
