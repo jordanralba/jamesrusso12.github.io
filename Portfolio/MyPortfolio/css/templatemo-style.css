@@ -248,6 +248,7 @@ h1,h2,h3,h4,h5
 /* start about */
 #about h3
     {
+	    font-size: 1.125em;
         padding: 15px 0;
 		color: #D43F52;
     }
